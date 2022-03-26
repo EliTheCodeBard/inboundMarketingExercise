@@ -1,0 +1,200 @@
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #FFFF8D; 
+    font-family: 'Open Sans', sans-serif;
+	width: 100%;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+.main-container {
+    display: block;
+    width: 100vw;
+    margin: 0 auto;
+    margin-right: 0px;
+}
+
+.container {
+    display: block;
+    float: left;
+    padding: 20px;
+    max-width: 100%;
+    /*margin: 0 auto;*/
+}
+
+header {
+    background: #c92626;
+    display: block;
+    float: left;
+    padding: 20px;
+    width: 100%;
+    border-bottom: 1px solid #c92626;
+}
+
+header img {
+    width: 300px;
+    height: auto;
+}
+
+#imgpasstrad {
+	border: 0; 
+	display:block; 
+	margin-bottom: 20px; 
+	margin-left: 60px; 
+	width: 550px; 
+	height: auto;
+}
+
+h1 {
+    font-size: 2.4rem;
+    color: #c92626;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #c92626;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1.8rem;
+    color: #c92626; 
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+
+h4 {
+    font-size: 1.6rem;
+    color: #dd1717;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+
+p {
+    margin-bottom: 10px;
+    line-height: 1.4;
+    color: #333;
+	width: 90%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#tenho-interesse {
+    background-color: #e49696;
+    width: 100%;
+	margin-right: 0px;
+}
+
+#tenho-interesse form,
+.cognito.c-med .c-forms-form,
+.cognito.c-med .c-forms-form div {
+    background-color: #e49696 !important;
+}
+
+#tenho-interesse .cognito .c-forms-form .c-forms-form-title h2,
+#tenho-interesse .cognito label[for], .cognito input[type=radio], .cognito input[type=checkbox] {
+    color: #dd1717;
+}
+
+ol {
+    margin-left: 30px;
+}
+
+ol li {
+    font-size: 1.4rem;
+    color: #454545;
+}
+
+section {
+    background-color: #FFFF8A;
+    display: block;
+    float: left;
+    font-size: 1.5rem; /* equivalente a 15px */ 
+    padding: 5px;
+    width: 100%;
+	margin-right: 0px;
+}
+
+section nav {
+    display: block;
+    float: left;
+    width: 25%;
+	color: #c92626;
+}
+
+nav li {
+    background-color: #e49696;
+    margin: 1px 10px 1px 0;
+    padding: 10px;
+    list-style-type: none;
+	color: #c92626;
+}
+
+nav li:hover {
+    background-color: #fff;
+}
+
+nav a {
+    text-decoration: none;
+    color: #c92626;
+	font-weight: 500;
+}
+
+nav a:hover {
+    color: #c92626;
+	font-weight: bold;
+	/*font-style: bold;*/
+}
+
+section article {
+    display: block;
+    float: left;
+    width: 70%;
+}
+
+footer {
+    background-color: #c92626;  
+    display: block;
+    float: left;
+    padding: 20px;
+    width: 100%;
+}
+
+footer p {
+    color: #ffffff;
+    font-size: 1.4rem;
+}
+
+footer small {
+    font-size: 80%;
+    display: block;
+}
+
+.cognito {
+	margin-top: 10px;
+	margin-left: 15px; 
+    height: 520px !important;
+    overflow: hidden !important;
+}
+
+@media (max-width: 425px) {
+    section nav,
+    section article {
+        width: 100%;
+    }  
+
+    .container {
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+}
