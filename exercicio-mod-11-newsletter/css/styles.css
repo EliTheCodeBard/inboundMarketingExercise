@@ -46,7 +46,7 @@ header img {
 	border: 0; 
 	display:block; 
 	margin-bottom: 20px; 
-	margin-left: 60px; 
+	/*margin-left: 60px;*/ 
 	width: 550px; 
 	height: auto;
 }
@@ -89,6 +89,10 @@ img {
     height: auto;
 }
 
+#form-article {
+	margin-left: 350px;
+}
+
 #tenho-interesse {
     background-color: #e49696;
     width: 100%;
@@ -99,6 +103,7 @@ img {
 .cognito.c-med .c-forms-form,
 .cognito.c-med .c-forms-form div {
     background-color: #e49696 !important;
+	margin-left: 100px !important;
 }
 
 #tenho-interesse .cognito .c-forms-form .c-forms-form-title h2,
@@ -187,14 +192,56 @@ footer small {
     overflow: hidden !important;
 }
 
+@media (max-width: 768px) {
+	#imgpasstrad {
+		margin-left: 5px;
+	}
+	
+	#form-article {
+		width: 100%;
+		margin-left: 120px;
+	}
+	
+	#form-article h1, #form-article p {
+		margin-left: 20px;
+	}
+}
+
 @media (max-width: 425px) {
     section nav,
     section article {
         width: 100%;
-    }  
+    } 
+	
+	section nav {
+		width: 91%;
+		margin-left: 20px;
+	}
+	
+	header img {
+		margin-left: 28pt;
+	}
+	
+	#imgpasstrad {
+		width: 350px;
+	}
 
     .container {
         padding-left: 1%;
         padding-right: 1%;
     }
+	
+	.cognito {
+		padding-right: 25px;
+	}
+	
+	#form-article {
+		margin-left: 0px;
+	}
+	
+	.left {
+		margin-left: 20px;
+	}
+	
+	
 }
