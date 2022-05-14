@@ -187,9 +187,26 @@ footer small {
 
 .cognito {
 	margin-top: 10px;
-	margin-left: 15px; 
-    height: 520px !important;
+	margin-left: -95px; 
+	margin-bottom: 50px;
+    height: 570px !important;
     overflow: hidden !important;
+}
+
+/*.cognito button {
+	margin-bottom: 60px !important;
+}*/
+
+.c-forms-workflow-action__button-grid > .c-canvas-button, .c-forms-pagebreak-buttons .c-canvas-button {
+	margin-bottom: 60px !important;
+}
+
+.cognito .c-html {
+	margin-bottom: 100px;
+}
+
+.c-forms-layout-element-selected .c-forms-pagebreak-divider {
+	margin-top: 50px !important;
 }
 
 @media (max-width: 768px) {
@@ -233,6 +250,7 @@ footer small {
 	
 	.cognito {
 		padding-right: 25px;
+		margin-left: -90px;
 	}
 	
 	#form-article {
